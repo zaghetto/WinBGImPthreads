@@ -1,0 +1,58 @@
+﻿Build started 09/12/2017 12:47:09.
+     1>Project "E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\bgi.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt include\bgiout.cxx include\dibutil.cxx include\drawing.cxx include\file.cxx "include\main - backup.cxx" include\misc.cxx include\mouse.cxx include\palette.cxx include\text.cxx include\winbgi.cxx include\winthread.cxx source\main.cpp
+         main.cpp
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\source\main.cpp(70): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\source\main.cpp(78): warning C4101: 'threadWin' : unreferenced local variable
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\source\main.cpp(74): warning C4101: 'exitstatus' : unreferenced local variable
+         winthread.cxx
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\winthread.cxx(320): warning C4101: 'i' : unreferenced local variable
+         winbgi.cxx
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\winbgi.cxx(81): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\winbgi.cxx(134): warning C4101: 'actual_color' : unreferenced local variable
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\winbgi.cxx(133): warning C4101: 'bgi_color' : unreferenced local variable
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\winbgi.cxx(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         text.cxx
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\text.cxx(348): warning C4018: '<' : signed/unsigned mismatch
+         palette.cxx
+         mouse.cxx
+         misc.cxx
+         main - backup.cxx
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(190): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(193): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(334): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(368): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(389): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\main - backup.cxx(398): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         file.cxx
+         drawing.cxx
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\drawing.cxx(819): warning C4101: 'tries' : unreferenced local variable
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\drawing.cxx(859): warning C4101: 'answer' : unreferenced local variable
+     1>e:\dropbox\unb\projetos\demiourgos\winbgim e pthreads no vs\include\drawing.cxx(1110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         dibutil.cxx
+         bgiout.cxx
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\\bin\bgi.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\\bin\bgi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\\bin\bgi.lib" /MACHINE:X86 Debug\bgiout.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         "Debug\main - backup.obj"
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\text.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         Debug\main.obj
+         bgi.vcxproj -> E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\\bin\bgi.exe
+     1>Done Building Project "E:\Dropbox\UnB\PROJETOS\DEMIOURGOS\WinBGIm e Pthreads no VS\bgi.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.24
