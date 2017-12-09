@@ -1,4 +1,5 @@
 
+
 #include <cstdlib>
 #include <iostream>
 #include <pthread.h>
@@ -27,6 +28,7 @@ int main(int argc, char *argv[])
 
 	while (!kbhit())
 	{
+		// Use color B
 		setcolor(COLOR(0,255,255));
 		moveto(rand() % 400, rand() % 300);
 		outtext("1");
@@ -38,11 +40,12 @@ int main(int argc, char *argv[])
 }
 
 
-void *verm(void *){
+void *usecolorA(void *){
 	double *result = (double*)malloc(sizeof(double) * 99);
 
 	while (!kbhit())
 	{
+		// Use color A
 		setcolor(COLOR(255, 255, 0));
 		moveto(rand() % 400, rand() % 300);
 		outtext("0");
